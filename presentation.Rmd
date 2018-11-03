@@ -1,0 +1,82 @@
+---
+title: Visualization in Data Science
+output: 
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: no
+      smooth_scroll: yes
+---
+
+# Data Visualization - Why do we care?
+
+Need combination of 3 skill sets. Coool Venn Diagram available here.
+
+- Math and statistics skills
+- Computer Science/ IT
+- Domain/ Business Knowledge
+
+<!-- Olaf Menzer's github repo for this talk: -->
+<!-- https://github.com/olaf-menzer/Rgraphs -->
+
+Data Visualization is for:
+- augmenting human capabilities to view and interpret data
+- understand relationships between factors
+- recognize patterns
+- break down complexity/ dimensionality reduction
+- exploratory analysis
+- communicating results to consumers
+
+Example: Anscombe's quartet
+
+![logo](anscombes-quartet.png)
+
+Each of these has the same stats. Visualization helps us tellthe whole story.
+
+## What makes a good graph successful?
+
+- Domain situation : you misunderstand their needs
+- Data/task abstraction: you show them the correct thing
+- Visual encoding/interaction idiom: justify design with respect to alternatives
+- Algorithm: analyze computational complexity, etc
+- Analyze results qualitatively
+
+## In Practice, Data scientists are faced with:
+
+- Too many coices in graph types and platforms
+- Searching for a template that is most suitable for the data
+- Having to test if the graph represents information accurately.
+- Finally, developing a narrative/story
+
+# Data Visualization: Elements and Tools
+
+## Data Representation and Abstraction ("What?")
+
+Data and dataset types:
+
+- Tables
+- Networks and Trees
+- Fields
+- Geometry
+- Clusters, Sets, Lists
+
+## Visualization Actions ("Why?")
+
+- Search (Lookup, Locate, Browse, Explore)
+- Query (Identify, Compare, Summarize)
+- Analyze (Consume: Discover, Present, Enjoy.  Produce: Annotate, Record, Derive)
+
+### Most Widely Used Tools ("How?")
+
+- Histograms
+- Bar Charts
+- Bubble Plots
+- Waterfall Charts
+- Radar Plots
+- Line Chart
+- Area Plot
+- Box Plots
+
+
+
+
