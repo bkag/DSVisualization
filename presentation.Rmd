@@ -76,7 +76,64 @@ Data and dataset types:
 - Line Chart
 - Area Plot
 - Box Plots
+- Time Series Plots
+
+Visual Design Aspects (~Tufte)
+
+- Show the data
+- Present many numbers in a small space
+- Make large data sets coherent
+- Encourage the eye to compare different pieces of data
+- Reveal the data at several levels of detail
+- serve a clear purpose: description, exploration, tabulation, or decoration
+- Be closely integrated with statistical and verbal description of a data set
+
+Other Considerations:
+
+- Who is the intended audience?
+- What is your target medium? Laptop, projector, printed, etc?
+
+# Advanced Graphs in R
+
+References:
+[https://r-graph-gallery.com/](https://r-graph-gallery.com/)
+[https://flowingdata.com/](https://flowingdata.com/)
+[https://plot.ly/r/shiny-gallery](https://plot.ly/r/shiny-gallery)
+
+## StreamGraph
+
+![](streamgraph.png)
+
+## Sunburt
+
+![](sunburst.jpg)
+
+## Sankey Chart
+
+![](sankey.jpg)
+
+## Chord Diagram
+
+![](circos.png)
 
 
+## Fingerprint 
 
+![](fingerprint.png)
+
+
+# Emerging Data Visualization
+
+- "Tomorrow's Earth"(_Science_ June 28th 2018)
+- 10 million data points in one large networkgraph example
+
+# How to test if your graph represents your data correctly?
+
+1. Plot multiple samples of the same data set
+1. Plot various aggregation levels ( sum, group by, mean vs. median)
+1. Plot even more samples
+1. Validate with externaldata sets (ideally obtained from independent sources)
+1. Use interactivity
+1. Test for visual significance, e.g. with error bars
+1. Transform axis (log, log-log, sigmoid, etc), align, stretch/compress axis ranges
 
